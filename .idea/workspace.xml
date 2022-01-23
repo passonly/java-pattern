@@ -4,42 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7f015c2-3b05-474b-928b-f78eed42a3f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/structure/lru/LRUOnLinkedHashMap.java" afterDir="false" />
+    <list default="true" id="f7f015c2-3b05-474b-928b-f78eed42a3f6" name="Changes" comment="lru">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/decorate/demo/Changer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pattern/decorate/demo/Changer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/decorate/demo/Girl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pattern/decorate/demo/Girl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/decorate/demo/Morrigan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pattern/decorate/demo/Morrigan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/decorate/demo/MorriganAensland.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pattern/decorate/demo/MorriganAensland.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/decorate/demo/Original.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pattern/decorate/demo/Original.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/decorate/demo/Succubus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pattern/decorate/demo/Succubus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/decorate/threoy/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pattern/decorate/threoy/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/decorate/threoy/ConcreteComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pattern/decorate/threoy/ConcreteComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/decorate/threoy/ConcreteDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pattern/decorate/threoy/ConcreteDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/decorate/threoy/Decorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pattern/decorate/threoy/Decorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/decorate/threoy/DecoratorPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pattern/decorate/threoy/DecoratorPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pattern/proxy/Proxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pattern/proxy/ProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/RealSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pattern/proxy/RealSubject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pattern/proxy/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/decorate/demo/Changer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/decorate/demo/Girl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/decorate/demo/Morrigan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/decorate/demo/MorriganAensland.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/decorate/demo/Original.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/decorate/demo/Succubus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/decorate/threoy/Component.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/decorate/threoy/ConcreteComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/decorate/threoy/ConcreteDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/decorate/threoy/Decorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/decorate/threoy/DecoratorPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/proxy/Proxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/proxy/ProxyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/proxy/RealSubject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/proxy/Subject.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +24,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -173,11 +145,23 @@
       <workItem from="1639807629028" duration="3287000" />
       <workItem from="1639811298006" duration="1167000" />
       <workItem from="1639812483368" duration="2417000" />
-      <workItem from="1642908877090" duration="1308000" />
+      <workItem from="1642908877090" duration="1957000" />
     </task>
+    <task id="LOCAL-00001" summary="lru">
+      <created>1642910547256</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642910547256</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lru" />
+    <option name="LAST_COMMIT_MESSAGE" value="lru" />
   </component>
 </project>
