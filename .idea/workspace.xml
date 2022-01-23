@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7f015c2-3b05-474b-928b-f78eed42a3f6" name="Changes" comment="lru">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/queryAndSort/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/structure/linked/LinkedList.java" afterDir="false" />
+    <list default="true" id="f7f015c2-3b05-474b-928b-f78eed42a3f6" name="Changes" comment="binarySearch">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queryAndSort/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +62,7 @@
       <recent name="D:\xdfworkspace\java-pattern\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.queryAndSort.BinarySearch" />
       <module name="java-pattern" />
@@ -103,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MorriganAensland" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.decorate.demo.MorriganAensland" />
+    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pattern.proxy.ProxyTest" />
       <module name="java-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.decorate.demo.*" />
+          <option name="PATTERN" value="com.pattern.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pattern.proxy.ProxyTest" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.queryAndSort.QuickSort" />
       <module name="java-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pattern.proxy.*" />
+          <option name="PATTERN" value="com.queryAndSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.LRUCacheDemo" />
         <item itemvalue="Application.LRUOnLinkedHashMap" />
         <item itemvalue="Application.ProxyTest" />
-        <item itemvalue="Application.MorriganAensland" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +160,7 @@
       <workItem from="1639807629028" duration="3287000" />
       <workItem from="1639811298006" duration="1167000" />
       <workItem from="1639812483368" duration="2417000" />
-      <workItem from="1642908877090" duration="8706000" />
+      <workItem from="1642908877090" duration="12678000" />
     </task>
     <task id="LOCAL-00001" summary="lru">
       <created>1642910547256</created>
@@ -184,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642928040295</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="binarySearch">
+      <created>1642946693100</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1642946693100</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +198,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lru" />
-    <option name="LAST_COMMIT_MESSAGE" value="lru" />
+    <MESSAGE value="binarySearch" />
+    <option name="LAST_COMMIT_MESSAGE" value="binarySearch" />
   </component>
 </project>
