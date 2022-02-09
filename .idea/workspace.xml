@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7f015c2-3b05-474b-928b-f78eed42a3f6" name="Changes" comment="0125">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/LongestPalindrome.java" afterDir="false" />
+    <list default="true" id="f7f015c2-3b05-474b-928b-f78eed42a3f6" name="Changes" comment="012601">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/MergeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/NumIslands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/leetcode/TwoNumAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/TwoNumAdd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,7 @@
       <recent name="D:\xdfworkspace\java-pattern\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestPalindrome">
+  <component name="RunManager" selected="Application.MergeArray">
     <configuration name="ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.ClimbingStairs" />
       <module name="java-pattern" />
@@ -89,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.LongestSubString" />
+    <configuration name="MergeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.MergeArray" />
       <module name="java-pattern" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoNumAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.TwoNumAdd" />
+    <configuration name="NumIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.NumIslands" />
       <module name="java-pattern" />
       <extension name="coverage">
         <pattern>
@@ -128,24 +130,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeArray" />
+        <item itemvalue="Application.NumIslands" />
         <item itemvalue="Application.LongestPalindrome" />
         <item itemvalue="Application.ClimbingStairs" />
         <item itemvalue="Application.ValidParentheses" />
-        <item itemvalue="Application.LongestSubString" />
-        <item itemvalue="Application.TwoNumAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +164,8 @@
       <workItem from="1639807629028" duration="3287000" />
       <workItem from="1639811298006" duration="1167000" />
       <workItem from="1639812483368" duration="2417000" />
-      <workItem from="1642908877090" duration="22411000" />
+      <workItem from="1642908877090" duration="23199000" />
+      <workItem from="1644123508415" duration="7690000" />
     </task>
     <task id="LOCAL-00001" summary="lru">
       <created>1642910547256</created>
@@ -225,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643123793889</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="012601">
+      <created>1643162651922</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1643162651922</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +247,28 @@
     <MESSAGE value="lru" />
     <MESSAGE value="binarySearch" />
     <MESSAGE value="0125" />
-    <option name="LAST_COMMIT_MESSAGE" value="0125" />
+    <MESSAGE value="012601" />
+    <option name="LAST_COMMIT_MESSAGE" value="012601" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/NumIslands.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/NumIslands.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/NumIslands.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
