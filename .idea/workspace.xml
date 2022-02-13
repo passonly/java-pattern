@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7f015c2-3b05-474b-928b-f78eed42a3f6" name="Changes" comment="0209">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queryAndSort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/structure/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,39 +63,26 @@
       <recent name="D:\xdfworkspace\java-pattern\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeArray">
-    <configuration name="ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.ClimbingStairs" />
-      <module name="java-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.LongestPalindrome" />
-      <module name="java-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="MergeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.MergeArray" />
       <module name="java-pattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.queryAndSort.MergeSort" />
+      <module name="java-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.queryAndSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +103,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.ValidParentheses" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.queryAndSort.QuickSort" />
       <module name="java-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="PATTERN" value="com.queryAndSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.structure.Test" />
+      <module name="java-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.structure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.MergeArray" />
         <item itemvalue="Application.NumIslands" />
-        <item itemvalue="Application.LongestPalindrome" />
-        <item itemvalue="Application.ClimbingStairs" />
-        <item itemvalue="Application.ValidParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +164,7 @@
       <workItem from="1639811298006" duration="1167000" />
       <workItem from="1639812483368" duration="2417000" />
       <workItem from="1642908877090" duration="23199000" />
-      <workItem from="1644123508415" duration="9031000" />
+      <workItem from="1644123508415" duration="13359000" />
     </task>
     <task id="LOCAL-00001" summary="lru">
       <created>1642910547256</created>
@@ -241,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644416509208</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="0209">
+      <created>1644505721577</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1644505721577</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +286,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/MergeArray.java</url>
           <line>10</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/queryAndSort/QuickSort.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/queryAndSort/QuickSort.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/queryAndSort/QuickSort.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
