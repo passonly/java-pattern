@@ -2,6 +2,12 @@ package com.queryAndSort;
 
 public class QuickSort {
 
+  /**
+   * 其时间复杂度在平均情况下是nlogn，在最坏的情况下（有序时）时间复杂度是o(n^2)
+   * 因此平均/最好空间复杂度为O(logn)，最坏空间复杂度为O(n)
+   * @param args
+   */
+
   public static void main(String[] args) {
 
     int[] array = {2, 8, 5, 6, 10, 5, 4, 6, 11, 15, 3};

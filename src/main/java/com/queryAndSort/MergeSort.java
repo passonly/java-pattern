@@ -4,6 +4,11 @@ import java.util.Arrays;
 
 public class MergeSort {
 
+  /**
+   * 归并排序的时间复杂度任何情况下都是 O(nlogn)
+   * 临时内存空间最大也不会超过 n 个数据的大小，所以空间复杂度是 O(n)
+   * @param args
+   */
   public static void main(String[] args) {
     int []arr = {9,8,7,6,5,4,3,2,1};
     int[] result = new int[arr.length];
